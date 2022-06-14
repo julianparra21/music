@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+header{
+    background-image:url(/images/angel-jimenez.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 100vh;
+   max-width: 100%;
+display: flex;
+ justify-content: center;
+ align-items: center;
+}
+body{
+    background-color: rgb(252, 107, 91);
+}
+h2{
+    font-size: 40.5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.title1{
+ color: whitesmoke;
+ font-size: 250px;
+ 
+}
+.title2{
+    
+        background: -webkit-linear-gradient(rgb(253, 92, 74),rgb(253, 52, 253));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: salmon;  
+        font-size: 100px;
+        /* font-family: 'Kdam Thmor Pro', sans-serif; */
+        font-family: 'Tiro Devanagari Sanskrit', serif;
+    
+}
+article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:white
+
+}
+.caja1{
+    display: flex;
+    align-items: center;
+    width: 52%;
+}
+main{
+    background-image: url(/images/john-raptis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 100vh;
+   max-width: 100%;
+   max-height: 100%;
+display: flex;  
+}
+.text5{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin:0 0 0 45%;
+    
+}
+.title4{
+    font-size: 60px;
+    width: 50%;
+    color: whitesmoke;
+}
+.img2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.texto1{
+    font-size: 25px;
+    max-width: 50%;
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+.texto2{
+    font-size: 40.5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.boton3{
+    border:none;
+  border-radius: 18px;
+  background-color: rgb(252, 107, 91);
+  padding: 8px;
+  width: 200px;
+  font-size: 20px;
+  color: white;
+}
+/* .table td. tr{
+    display: flex;
+    justify-content: space-around;
+} */
+footer{
+     display: flex;
+     justify-content:space-around;
+     font-size: 12px;
+     align-items:center;
+     flex-direction:row;
+ 
+    background-color: rgb(252, 107, 91);
+    
+    color:white;
+    height: 20%;
+}
+hr{
+    display: flex;
+    justify-content: space-around;
+    max-width: 75%;
+    margin: 0 150px 0 150px;
+}
+.fin{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
